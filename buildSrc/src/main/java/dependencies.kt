@@ -17,6 +17,9 @@ object Versions {
 @Suppress("unused")
 object Deps {
     val appCompat = "com.android.support:appcompat-v7:${Versions.supportLibVersion}"
+    val recyclerView = "com.android.support:recyclerview-v7:${Versions.supportLibVersion}"
+    val cardView = "com.android.support:cardview-v7:${Versions.supportLibVersion}"
+
     val constraintLayout = "com.android.support.constraint:constraint-layout:${Versions.constraintLayoutVersion}"
 
     val ankoCommons = "org.jetbrains.anko:anko-appcompat-v7-commons:${Versions.ankoVersion}"
